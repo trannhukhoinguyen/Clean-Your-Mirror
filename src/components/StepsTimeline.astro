@@ -24,7 +24,7 @@ const { title, items } = Astro.props;
               <div class:list={["item", i === 0 && "is-active"]}>
                 <div class="item-inner">
                   <h3 class="u-heading item-title" data-sy-reveal="words">
-                    {item.time || ❓}
+                    {item.time || '❓'}
                   </h3>
                   <h3 class="u-heading item-title" data-sy-reveal="words">
                     {item.title}
