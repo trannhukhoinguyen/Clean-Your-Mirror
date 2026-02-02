@@ -7,6 +7,9 @@ import {
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://tosuthien.org',
+  base: '/mirror-cleaning',
+
   scopedStyleStrategy: 'where',
   experimental: {
     fonts: [
