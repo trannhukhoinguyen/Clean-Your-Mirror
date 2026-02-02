@@ -10,6 +10,8 @@
         "astro": "astro"
     },
     "dependencies": {
+        "@tosuthien/ui": "workspace:*",
+
         "@csstools/postcss-global-data": "^3.0.0",
         "@pmndrs/vanilla": "^1.25.0",
         "astro": "^5.16.11",
