@@ -8,5 +8,5 @@ export interface Image {
   width?: string | number;
   height?: string | number;
   src: string;
-  alt: string;
+  alt?: string;
 }
