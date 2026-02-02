@@ -4,6 +4,7 @@ interface Props {
   items: {
     title: string;
     text: string;
+    time: string;
   }[];
 }
 
@@ -22,6 +23,9 @@ const { title, items } = Astro.props;
             items.map((item, i) => (
               <div class:list={["item", i === 0 && "is-active"]}>
                 <div class="item-inner">
+                  <h3 class="u-heading item-title" data-sy-reveal="words">
+                    {item.time || ❓}
+                  </h3>
                   <h3 class="u-heading item-title" data-sy-reveal="words">
                     {item.title}
                   </h3>
